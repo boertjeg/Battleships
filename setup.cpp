@@ -7,5 +7,5 @@ void setupplayer(){
 }
 
 void setupai(){
-    
+
 }

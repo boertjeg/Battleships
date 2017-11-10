@@ -1,7 +1,11 @@
 /*
- * This function checks is a shot is posible and updates the board. Returns 0 if everything when ok otherwise 1
- * The function updates the hitpos of the board. It checks if the position is not shot at before and if there is a
- * ship there and updates hitpos accordingly.
+ * This function checks is a shot is possible and updates the board. Returns an integer depending on the result (see
+ * output). It checks if the coordinate is not shot at before and gives an error (0) if it is shot at before.
+ * The program then checks if it's a hit or a miss and if a ship is sunk. An integer is returned with the result.
+ * This integer is shown in output.
+ * The funtion inputcoord(int maxletter,int max number) can be used for user input for the coordinates.
+ *
+ * int shot(std::vector<int> cooord,Board &board)
  *
  * Input:
  * vector<int> coord(2)                 The coordinate shot at. Should be a vector of length 2.
