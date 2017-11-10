@@ -5,6 +5,6 @@
 #ifndef BATTLESHIPS_GUI_H
 #define BATTLESHIPS_GUI_H
 void draw(board board1,board board2){
-
+//test in gui
 }
 #endif //BATTLESHIPS_GUI_H
