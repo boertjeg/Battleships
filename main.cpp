@@ -7,18 +7,12 @@
 #include "ui.h"
 #include "PlotBoard.h"
 #include "shot.h"
+#include "setup.h"
+#include "setupboard.h"
 
 int main() {
-    Board board1 = Board();
-    board1.addShip(Ship(4));
-    board1.setCoordinates(0,inputcoord(10,10),'h');
-    std::cout<<"test commit"<<std::endl;
-    std::cout<<"another test commit"<<std::endl;
-
-    while (0<1) {
-        PlotBoard(board1.gethitpos());
-        std::cout<<shot(inputcoord(10,10),board1)<<std::endl;
-    }
-
+    int width;
+    int length;
+    setupboard();
     return 0;
 }

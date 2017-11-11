@@ -4,6 +4,10 @@
 
 #ifndef BATTLESHIPS_SETUP_H
 #define BATTLESHIPS_SETUP_H
-void setupplayer();
-void setupai();
+#include <iostream>
+#include <string>
+#include <setupboard.h>
+
+void setup();
+
 #endif //BATTLESHIPS_SETUP_H
